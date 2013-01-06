@@ -1,0 +1,15 @@
+--- 
+cursor_positions: 
+  - :path: config/routes.rb
+    :cursor_offset: 1507
+    :timestamp: 2012-09-02 19:42:38 +05:30
+  - :path: app/views/clicks/index.html.erb
+    :cursor_offset: 256
+    :timestamp: 2012-11-11 15:17:50 +05:30
+  - :path: app/assets/javascripts/application.js
+    :cursor_offset: 484
+    :timestamp: 2012-11-11 15:09:25 +05:30
+  - :path: app/assets/javascripts/custom.js
+    :cursor_offset: 71
+    :timestamp: 2012-09-02 21:43:56 +05:30
+files_to_retain: 0

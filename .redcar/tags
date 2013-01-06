@@ -1,0 +1,15 @@
+1357484620
+AddConfirmationToUsers	/home/abhiram/rails/clickwise/db/migrate/20130106084037_add_confirmation_to_users.rb	class AddConfirmationToUsers 
+ClicksController	/home/abhiram/rails/clickwise/app/controllers/clicks_controller.rb	class ClicksController 
+DeviseCreateUsers	/home/abhiram/rails/clickwise/db/migrate/20121213180355_devise_create_users.rb	class DeviseCreateUsers 
+User	/home/abhiram/rails/clickwise/app/models/user.rb	class User 
+UserTest	/home/abhiram/rails/clickwise/test/unit/user_test.rb	class UserTest 
+change	/home/abhiram/rails/clickwise/db/migrate/20121213180355_devise_create_users.rb	  def change
+change	/home/abhiram/rails/clickwise/db/migrate/20130106084037_add_confirmation_to_users.rb	  def change
+create	/home/abhiram/rails/clickwise/app/controllers/clicks_controller.rb	  def create
+destroy	/home/abhiram/rails/clickwise/app/controllers/clicks_controller.rb	  def destroy
+edit	/home/abhiram/rails/clickwise/app/controllers/clicks_controller.rb	  def edit
+index	/home/abhiram/rails/clickwise/app/controllers/clicks_controller.rb	  def index
+new	/home/abhiram/rails/clickwise/app/controllers/clicks_controller.rb	  def new
+show	/home/abhiram/rails/clickwise/app/controllers/clicks_controller.rb	  def show
+update	/home/abhiram/rails/clickwise/app/controllers/clicks_controller.rb	  def update

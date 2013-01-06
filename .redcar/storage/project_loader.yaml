@@ -1,0 +1,6 @@
+--- 
+open_files: 
+  - config/routes.rb
+  - app/views/clicks/index.html.erb
+  - app/assets/javascripts/application.js
+  - app/assets/javascripts/custom.js
