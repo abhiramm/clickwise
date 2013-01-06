@@ -1,0 +1,4 @@
+clickwise
+=========
+
+Simple gaming application
