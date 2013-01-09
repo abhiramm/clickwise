@@ -5,6 +5,7 @@ class ClicksController < ApplicationController
   before_filter :authenticate_user!
   def index
     @clicks = Click.all
+    @click = Click.new
 
     respond_to do |format|
       format.html # index.html.erb
@@ -46,7 +47,7 @@ class ClicksController < ApplicationController
 
     respond_to do |format|
       if @click.save
-        format.html { redirect_to @click, notice: 'Click was successfully created.' }
+        format.html { redirect_to clicks_path, notice: 'Click was successfully created.' }
         format.json { render json: @click, status: :created, location: @click }
       else
         format.html { render action: "new" }

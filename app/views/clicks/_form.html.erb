@@ -12,10 +12,10 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :clickcount %><br />
-    <%= f.number_field :clickcount %>
+    <%# f.label :clickcount %><br />
+    <%= f.number_field :clickcount, :id => "clicks_counts_text" %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit 'Submit' %>
   </div>
 <% end %>

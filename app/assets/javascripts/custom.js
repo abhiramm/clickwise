@@ -12,4 +12,11 @@ $('html').click(function(){
     });
 });
 
+$("html").click(function(){
+  
+  var clicks_count= $('#counter').text();
+  
+  $('#clicks_counts_text').val(clicks_count);
+});
+
 });

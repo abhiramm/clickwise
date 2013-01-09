@@ -4,3 +4,11 @@ open_files:
   - app/views/clicks/index.html.erb
   - app/assets/javascripts/application.js
   - app/assets/javascripts/custom.js
+  - app/controllers/application_controller.rb
+  - app/models/user.rb
+  - config/environments/development.rb
+  - config/environment.rb
+  - config/application.rb
+  - config/environments/production.rb
+  - config/initializers/devise.rb
+  - app/assets/stylesheets/application.css

@@ -1,15 +1,39 @@
 --- 
 cursor_positions: 
   - :path: config/routes.rb
-    :cursor_offset: 1507
-    :timestamp: 2012-09-02 19:42:38 +05:30
+    :cursor_offset: 684
+    :timestamp: 2012-12-13 23:33:55 +05:30
   - :path: app/views/clicks/index.html.erb
-    :cursor_offset: 256
-    :timestamp: 2012-11-11 15:17:50 +05:30
+    :cursor_offset: 359
+    :timestamp: 2013-01-06 23:31:28 +05:30
   - :path: app/assets/javascripts/application.js
-    :cursor_offset: 484
-    :timestamp: 2012-11-11 15:09:25 +05:30
+    :cursor_offset: 477
+    :timestamp: 2013-01-06 23:27:12 +05:30
   - :path: app/assets/javascripts/custom.js
     :cursor_offset: 71
     :timestamp: 2012-09-02 21:43:56 +05:30
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-02 19:12:29 +05:30
+  - :path: app/models/user.rb
+    :cursor_offset: 305
+    :timestamp: 2013-01-06 14:50:20 +05:30
+  - :path: config/environments/development.rb
+    :cursor_offset: 717
+    :timestamp: 2013-01-06 20:32:47 +05:30
+  - :path: config/environment.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-02 19:12:29 +05:30
+  - :path: config/application.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-02 19:12:29 +05:30
+  - :path: config/environments/production.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-02 19:12:29 +05:30
+  - :path: config/initializers/devise.rb
+    :cursor_offset: 5462
+    :timestamp: 2013-01-06 20:21:03 +05:30
+  - :path: app/assets/stylesheets/application.css
+    :cursor_offset: 347
+    :timestamp: 2013-01-06 23:27:27 +05:30
 files_to_retain: 0

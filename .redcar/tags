@@ -1,4 +1,4 @@
-1357484620
+1357498539
 AddConfirmationToUsers	/home/abhiram/rails/clickwise/db/migrate/20130106084037_add_confirmation_to_users.rb	class AddConfirmationToUsers 
 ClicksController	/home/abhiram/rails/clickwise/app/controllers/clicks_controller.rb	class ClicksController 
 DeviseCreateUsers	/home/abhiram/rails/clickwise/db/migrate/20121213180355_devise_create_users.rb	class DeviseCreateUsers 

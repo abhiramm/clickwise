@@ -1,3 +1,51 @@
 // Place all the styles related to the clicks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.pseudo_bar
+{
+  margin-bottom:60px;
+}
+
+.right_highscore
+{
+  float:right;
+  width:400px;
+  min-height:500px;
+}
+
+.left_gamespan
+{
+  float:left;
+  width:530px;
+  min-height:500px;
+}
+
+#clicks_counts_text
+{
+  display:none;
+}
+
+.counter_pit
+{
+  width: 200px;
+  border: 1px solid lightBlue;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 14px;
+  margin-top: 79px;
+}
+
+.score_pit
+{
+  margin-top:69px;
+  float:left;
+}
+
+#counter
+{
+  font-size: 68px;
+  color: #D94D48 !important;
+  margin-top: 38px;
+  margin-bottom: 17px;
+}
