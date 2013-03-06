@@ -2,9 +2,9 @@ class ClicksController < ApplicationController
   # GET /clicks
   # GET /clicks.json
   
-  before_filter :authenticate_user!
+
   def index
-    @clicks = Click.all
+    @clicks = Click.last(1)
     @click = Click.new
 
     respond_to do |format|

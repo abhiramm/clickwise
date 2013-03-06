@@ -1,37 +1,43 @@
-<div class="row">
-<div class="right_highscore">
-<div class="score_pit">
-<h4>Score Chart</h4>
-<table>
-  <tr>
-    <th>Clickcount</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
 
-<% @clicks.each do |click| %>
-  <tr>
-    <td><%= click.clickcount %></td>
-    <td><%= link_to 'Show', click %></td>
-    <td><%= link_to 'Edit', edit_click_path(click) %></td>
-    <td><%= link_to 'Destroy', click, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
-<% end %>
-</table>
-</div>
-</div>
-<div class="left_gamespan">
-<div class="counter_pit">
-<center>
-<h5>Click Count</h5>
-<div id="counter">0</div>
+<style>
+.alignment
+{
+  margin-top:32px;
+  margin-bottom:16px;
+}
+</style>
+
 <%= render 'form' %>
-</center>
-</div>
-</div>
+<% @clicks.each do |click| %>
 
-</div>
+<% if click.clickcount == 30707104001 %>
+
+<table width="100%" align="center" cellpadding="2" cellspacing="2" class="sp5" style="border:#E5322b; border:solid; border-color:#E5322b;">
+  <tr><td colspan="2"><a href="http://bitly.com/Anna-Univ-Results" target="_blank"><img src="http://4.bp.blogspot.com/-LR39tzEm5wM/URCFABNN_JI/AAAAAAAABIY/-n5XUAKtDX4/s1600/karunya.jpg" width="460px" border="0"></a></td></tr>
+  <tr><td width="31%" bgcolor="#ffcd79" colspan="2" align="center"><b>Personal Details</b></td></tr><tr><td width="31%">Registration No. </td><td width="69%"><b>30707104001</b></td></tr>
+  <tr bgcolor="#ffcd79"><td >Name</td><td align="left"><b>ABHIRAMA SUNDARAM D</b></td></tr>
+  <tr><td width="31%">Degree & Branch </td><td width="69%" align="left">B.E. Computer Science and Engineering</td></tr>
+</table>
+
+<table width="100%" align="center" cellpadding="2" cellspacing="2" class="sp5" style="border:#E5322b; border:solid; border-color:#E5322b;">
+  <tr bgcolor="#ffcd79" align="center"><td ><b>Subject</b></td><td ><b>Internal</b></td><td ><b>External</b></td><td><b>Result</b></td></tr>
+  <tr align="center" ><td>EC1291</td><td>11</td><td>47</td><td>P</td></tr>
+  <tr align="center"  bgcolor="#ffcd79"><td>MA1201</td><td>14</td><td>39</td><td>P</td></tr>
+  <tr><td colspan="4"><a href="http://bitly.com/Anna-Univ-Results" target="_blank"><img src="http://4.bp.blogspot.com/-LR39tzEm5wM/URCFABNN_JI/AAAAAAAABIY/-n5XUAKtDX4/s1600/karunya.jpg" width="460px" border="0"></a></td></tr></table>
+
+  <% elsif click.clickcount > 30707104002 and click.clickcount < 30707104090 %>
+    
+  <div class="alignment">No candidate is registered in this number</div>
+  
+  <% else %>
+  
+ <div class="alignment"> Enter your valid register number to see the results </div>
+  
+  <% end %>
+  
 
 
-<%# link_to 'New Click', new_click_path %>
+<% end %>
+
+
+  
