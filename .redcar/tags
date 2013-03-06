@@ -1,4 +1,4 @@
-1362560230
+1362564830
 AddConfirmationToUsers	/home/abhiram/rails/clickwise/db/migrate/20130106084037_add_confirmation_to_users.rb	class AddConfirmationToUsers 
 Click	/home/abhiram/rails/clickwise/app/models/click.rb	class Click 
 ClicksController	/home/abhiram/rails/clickwise/app/controllers/clicks_controller.rb	class ClicksController 
